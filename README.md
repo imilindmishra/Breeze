@@ -22,7 +22,7 @@ Breeze is a modern, user-friendly weather forecast dashboard built with React. I
 ### Installation
 
 1. Clone the repository:
-git clone https://github.com/yourusername/breeze.git
+git clone https://github.com/imilindmishra/Breeze.git
 
 2. Navigate to the project directory:
 cd breeze
