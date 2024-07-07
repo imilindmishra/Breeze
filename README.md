@@ -4,6 +4,10 @@
 
 Breeze is a modern, user-friendly weather forecast dashboard built with React. It provides users with up-to-date weather information and forecasts in an intuitive and visually appealing interface.
 
+## Demo
+
+Video link of the working demo: https://www.loom.com/share/0db402da66a6439e8b02ac9820a9f44e?sid=9a710328-5914-46d3-8582-2606f178e75b
+
 ## Tech Stack
 
 - React
