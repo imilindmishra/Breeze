@@ -1,5 +1,16 @@
+body, #root {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: #030712;
+}
+
 .App {
   text-align: center;
+  min-height: 100vh;
+  color: #030712; /* This ensures text is visible on the dark background */
+  background-color: #030712;
+
 }
 
 .App-logo {
@@ -14,14 +25,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
