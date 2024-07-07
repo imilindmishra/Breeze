@@ -28,7 +28,7 @@ function App() {
 
   const fetchWeather = async (location) => {
     const apiKey = process.env.REACT_APP_WEATHERAPI_KEY;
-    const url = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${location}&days=7&aqi=no&hour=yes&alerts=yes&day=yes`;
+    const url = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${location}&days=7&aqi=no&hour=yes&alerts=yes&day=yes`;
 
     try {
       const response = await axios.get(url);
