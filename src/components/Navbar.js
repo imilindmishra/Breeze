@@ -83,7 +83,7 @@ export default function NavBar({ onSearch }) {
 
   useEffect(() => {
     const loadSuggestions = async () => {
-      if (query.length > 2) {
+      if (query.length >= 1) {
         const apiKey = process.env.REACT_APP_WEATHERAPI_KEY;
         const url = `https://api.weatherapi.com/v1/search.json?key=${apiKey}&q=${query}`;
 
@@ -106,9 +106,9 @@ export default function NavBar({ onSearch }) {
     }
   };
 
-  const handleInputChange = debounce((newValue) => {
+  const handleInputChange = ((newValue) => {
     setQuery(newValue);
-  }, 300);
+  });
 
   const toggleSideBar = () => {
     setSideBarOpen(!sideBarOpen);
